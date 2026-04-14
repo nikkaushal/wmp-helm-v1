@@ -1,6 +1,5 @@
 appName: auth-service
 appPort: 8081
-replicas: 2
 serviceType: ClusterIP
 config_values:
   DB_HOST: "wmp-dev.coie5kqxcxgs.us-east-1.rds.amazonaws.com"
